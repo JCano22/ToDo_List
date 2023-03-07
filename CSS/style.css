@@ -1,0 +1,80 @@
+:root{
+    --bkg-color: #93BFCF;
+    --txt-color: #EEE9DA;
+    --cont-color: #6096B4;
+    --shadow: #BDCDD6;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--bkg-color);
+    color: var(--txt-color);
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2.5px;
+}
+.container{
+    background-color: var(--cont-color);
+    border-radius: 10px;
+    width: 55%;
+    min-height: 675px;
+    position: relative;
+    top: 15px;
+    bottom: 15px;
+    text-align: center;
+    margin: auto;
+}
+.header{
+    margin: 25px;
+    font-size: 52px;
+    text-shadow: 1px 1px black;
+}
+input{
+    width: 55%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.addBtn{
+    width: 50px;
+    height: 31px;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    bottom: 2px;
+}
+.listContainer{
+    margin: 35px;
+}
+.secondListDiv{
+    margin: 30px auto;
+    width: 400px;
+    min-height: 300px;
+    border: 1px solid var(--shadow);
+    background-color: rgba(238, 233, 218, .4);
+    border-radius: 4px;
+    box-shadow: 10px 5px 5px black;
+}
+.secondListDiv h3{
+    padding: 20px;
+    text-shadow: 1px 2px var(--cont-color);
+    font-size: 48px;
+}
+ul{
+    list-style-type:disc;
+    list-style-position: inside;
+    text-align:center;
+}
+li{
+    font-size: 30px;
+    text-shadow: 2px 1px var(--cont-color);
+    padding: 10px;
+}
